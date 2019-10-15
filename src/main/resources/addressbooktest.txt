@@ -1,0 +1,2 @@
+Contact: firstName: Kobe, lastName: Bryant, phoneNumber: 7861982745, postalAddress: California, emailAddress: kobeb@nba.com, note: null
+Contact: firstName: Kawhi, lastName: Leonard, phoneNumber: null, postalAddress: null, emailAddress: Kawhi@gmail.com, note: null
