@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 
@@ -24,7 +25,8 @@ public class Main {
     System.out.println(addressBook.getContacts());
 
     try {
-      addressBook.readAddressBookFromFile("/Users/derrickbu/Downloads/addressbooktest.txt");
+      File file = new File("src/main/resources/addressbooktest.txt");
+      addressBook.readAddressBookFromFile(file.getAbsolutePath());
     } catch (IOException e) {
       e.printStackTrace();
     }
